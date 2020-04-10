@@ -6,6 +6,16 @@
 ![npm type definitions](https://img.shields.io/npm/types/typescript)
 ![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/leihancn/react-cli/parcel)
 
+#### 使用
+
+```shell
+# clone 脚手架
+git clone https://github.com/LeiHanCN/react-cli.git <project_name>
+cd <project_name>/scripts
+chmod 777 init.sh
+# 运行初始化脚本
+./init.sh
+```
 
 #### 常用指令
 
