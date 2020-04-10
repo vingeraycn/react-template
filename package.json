@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "keywords": [
+    "react",
+    "parcel",
+    "styled-components",
+    "latest"
+  ],
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
