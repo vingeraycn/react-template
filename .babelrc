@@ -5,7 +5,6 @@
       "babel-plugin-styled-components",
       { "ssr": true, "preprocess": false, "pure": true, "minify": true }
     ],
-    "@babel/plugin-proposal-class-properties",
     [
       "@babel/plugin-transform-runtime",
       {
