@@ -10,7 +10,7 @@
 
 ```shell
 # clone 脚手架
-git clone https://github.com/LeiHanCN/react-cli.git <project_name>
+git clone https://github.com/LeiHanCN/react-template.git <project_name>
 cd <project_name>/scripts
 chmod 777 init.sh
 # 运行初始化脚本
