@@ -1,10 +1,10 @@
 ## 快速启动的脚手架
-![GitHub](https://img.shields.io/github/license/LeiHanCN/react-cli)
-![David](https://img.shields.io/david/leihancn/react-cli)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/leihancn/react-cli)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/leihancn/react-cli)
+![GitHub](https://img.shields.io/github/license/leihancn/react-template)
+![David](https://img.shields.io/david/leihancn/react-template)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/leihancn/react-template)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/leihancn/react-template)
 ![npm type definitions](https://img.shields.io/npm/types/typescript)
-![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/leihancn/react-cli/parcel)
+![GitHub package.json dynamic](https://img.shields.io/github/package-json/keywords/leihancn/react-template/parcel)
 
 #### 使用
 
