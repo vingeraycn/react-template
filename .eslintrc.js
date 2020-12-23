@@ -49,6 +49,8 @@ module.exports = {
     'func-names': OFF,
     '@typescript-eslint/no-unused-vars': OFF,
     'import/named': OFF,
-    'react/no-array-index-key': OFF
+    'react/no-array-index-key': OFF,
+    '@typescript-eslint/semi': OFF,
+    '@typescript-eslint/no-empty-interface': WARNING,
   }
 };
