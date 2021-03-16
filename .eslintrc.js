@@ -11,12 +11,12 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
+    createDefaultProgram: true
   },
   extends: [
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'prettier/react'
   ],
   plugins: ['@typescript-eslint', 'react', 'react-hooks'],
   rules: {
