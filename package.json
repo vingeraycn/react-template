@@ -6,6 +6,7 @@
     "build": "yarn lint && vite build",
     "serve": "vite preview",
     "cz": "yarn format && yarn lint && git add . && git cz",
+    "check-deps": "npx npm-check-updates",
     "upgrade-deps": "npx npm-check-updates -u && yarn",
     "lint": "prettier-eslint '**/*.{ts,tsx}' --list-different",
     "format": "yarn lint --write",
