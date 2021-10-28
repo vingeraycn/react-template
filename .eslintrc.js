@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb-typescript'],
+  extends: ['airbnb', 'airbnb-typescript'],
   parserOptions: {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
