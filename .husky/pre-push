@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "如果检查不通过，尝试运行 yarn format。"
+yarn lint
