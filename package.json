@@ -8,7 +8,7 @@
     "cz": "yarn format && yarn lint && git add . && git cz",
     "check-deps": "npx npm-check-updates",
     "upgrade-deps": "npx npm-check-updates -u && yarn",
-    "lint": "prettier-eslint '**/*.{ts,tsx}' --list-different",
+    "lint": "prettier '**/*.{ts,tsx}' --list-different",
     "format": "yarn lint --write",
     "prepare": "husky install"
   },
@@ -32,7 +32,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.4",
     "prettier": "^2.4.1",
-    "prettier-eslint-cli": "^5.0.1",
     "typescript": "^4.4.4",
     "vite": "^2.6.13"
   }
