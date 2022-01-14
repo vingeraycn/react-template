@@ -1,5 +1,6 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb-typescript'],
+  extends: ['airbnb', 'airbnb-typescript', 'prettier'],
+  plugins: ['prettier'],
   parserOptions: {
     project: './tsconfig.json',
     tsconfigRootDir: __dirname,
@@ -9,5 +10,6 @@ module.exports = {
     '@typescript-eslint/semi': ['warn', 'never'],
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': 'error',
   },
 }
