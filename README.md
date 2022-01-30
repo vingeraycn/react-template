@@ -1,4 +1,5 @@
 ## 快速启动的脚手架
+
 ![GitHub](https://img.shields.io/github/license/leihancn/react-template)
 ![David](https://img.shields.io/david/leihancn/react-template)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/leihancn/react-template)
@@ -27,4 +28,3 @@ yarn build
 # 提交代码
 yarn cz
 ```
-
