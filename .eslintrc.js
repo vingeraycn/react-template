@@ -1,15 +1,21 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb-typescript', 'prettier'],
-  plugins: ['prettier'],
-  parserOptions: {
-    project: './tsconfig.json',
-    tsconfigRootDir: __dirname,
-    createDefaultProgram: true,
-  },
+  root: true,
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:prettier/recommended',
+  ],
   rules: {
-    '@typescript-eslint/semi': ['warn', 'never'],
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    'prettier/prettier': 'error',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 }
