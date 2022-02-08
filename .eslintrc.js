@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
@@ -17,5 +17,9 @@ export default {
     react: {
       version: 'detect',
     },
+  },
+  env: {
+    node: true,
+    browser: true,
   },
 }
