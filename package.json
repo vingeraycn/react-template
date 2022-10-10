@@ -37,7 +37,7 @@
     "stylelint-config-standard": "^25.0.0",
     "stylelint-prettier": "^2.0.0",
     "typescript": "^4.6.3",
-    "vite": "^2.9.5"
+    "vite": "^2.9.13"
   },
   "config": {
     "commitizen": {
