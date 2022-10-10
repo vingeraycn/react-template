@@ -10,8 +10,7 @@
     "check-deps": "npx npm-check-updates",
     "upgrade-deps": "yarn check-deps -u && yarn",
     "lint": "prettier --check .",
-    "format": "yarn lint --write",
-    "prepare": "husky install"
+    "format": "yarn lint --write"
   },
   "dependencies": {
     "clsx": "^1.1.1",
@@ -32,7 +31,6 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "git-cz": "^4.8.0",
-    "husky": "^7.0.4",
     "prettier": "^2.6.2",
     "prettier-plugin-organize-imports": "^2.3.4",
     "stylelint": "^14.7.1",
