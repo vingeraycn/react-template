@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "yarn lint && vite build",
+    "build": "vite build",
     "serve": "vite preview",
-    "cz": "yarn format && git add . && git cz",
+    "cz": "git add . && git cz",
     "czp": "yarn cz && git push -u origin HEAD",
     "check-deps": "npx npm-check-updates",
     "upgrade-deps": "yarn check-deps -u && yarn",
