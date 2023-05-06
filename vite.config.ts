@@ -4,9 +4,6 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  esbuild: {
-    jsxInject: "import React from 'react'",
-  },
   server: {
     port: 3000,
   },
